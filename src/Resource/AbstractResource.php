@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the zibios/wrike-php-library package.
+ * This file is part of the wedocreatives/wrike-php-library package.
  *
  * (c) Zbigniew Ślązak
  *
@@ -11,15 +11,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Zibios\WrikePhpLibrary\Resource;
+namespace wedocreatives\WrikePhpLibrary\Resource;
 
-use Zibios\WrikePhpLibrary\Client\ClientInterface;
-use Zibios\WrikePhpLibrary\Enum\Api\RequestMethodEnum;
-use Zibios\WrikePhpLibrary\Enum\Api\ResourceMethodEnum;
-use Zibios\WrikePhpLibrary\Resource\Helpers\RequestPathProcessor;
-use Zibios\WrikePhpLibrary\Transformer\ApiExceptionTransformerInterface;
-use Zibios\WrikePhpLibrary\Transformer\ResponseTransformerInterface;
-use Zibios\WrikePhpLibrary\Validator\AccessTokenValidator;
+use wedocreatives\WrikePhpLibrary\Client\ClientInterface;
+use wedocreatives\WrikePhpLibrary\Enum\Api\RequestMethodEnum;
+use wedocreatives\WrikePhpLibrary\Enum\Api\ResourceMethodEnum;
+use wedocreatives\WrikePhpLibrary\Resource\Helpers\RequestPathProcessor;
+use wedocreatives\WrikePhpLibrary\Transformer\ApiExceptionTransformerInterface;
+use wedocreatives\WrikePhpLibrary\Transformer\ResponseTransformerInterface;
+use wedocreatives\WrikePhpLibrary\Validator\AccessTokenValidator;
 
 /**
  * Resource Abstract.
@@ -59,7 +59,7 @@ abstract class AbstractResource implements ResourceInterface
      *
      * Transform Exceptions throw by HTTP Client to another Exceptions.
      *
-     * @see \Zibios\WrikePhpLibrary\Exception\Api\ApiException
+     * @see \wedocreatives\WrikePhpLibrary\Exception\Api\ApiException
      *
      * @var ApiExceptionTransformerInterface
      */
@@ -99,8 +99,8 @@ abstract class AbstractResource implements ResourceInterface
     /**
      * Return connection array ResourceMethod => RequestPathFormat.
      *
-     * @see \Zibios\WrikePhpLibrary\Enum\Api\ResourceMethodEnum
-     * @see \Zibios\WrikePhpLibrary\Enum\Api\RequestPathFormatEnum
+     * @see \wedocreatives\WrikePhpLibrary\Enum\Api\ResourceMethodEnum
+     * @see \wedocreatives\WrikePhpLibrary\Enum\Api\RequestPathFormatEnum
      *
      * @return array
      */
@@ -112,7 +112,7 @@ abstract class AbstractResource implements ResourceInterface
      * @param array             $params
      * @param string|array|null $id
      *
-     * @throws \Zibios\WrikePhpLibrary\Exception\Api\ApiException
+     * @throws \wedocreatives\WrikePhpLibrary\Exception\Api\ApiException
      * @throws \LogicException
      * @throws \InvalidArgumentException
      * @throws \Throwable

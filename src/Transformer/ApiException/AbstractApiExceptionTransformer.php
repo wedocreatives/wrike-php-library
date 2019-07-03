@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the zibios/wrike-php-library package.
+ * This file is part of the wedocreatives/wrike-php-library package.
  *
  * (c) Zbigniew Ślązak
  *
@@ -11,19 +11,19 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Zibios\WrikePhpLibrary\Transformer\ApiException;
+namespace wedocreatives\WrikePhpLibrary\Transformer\ApiException;
 
-use Zibios\WrikePhpLibrary\Exception\Api\AccessForbiddenException;
-use Zibios\WrikePhpLibrary\Exception\Api\ApiException;
-use Zibios\WrikePhpLibrary\Exception\Api\InvalidParameterException;
-use Zibios\WrikePhpLibrary\Exception\Api\InvalidRequestException;
-use Zibios\WrikePhpLibrary\Exception\Api\MethodNotFoundException;
-use Zibios\WrikePhpLibrary\Exception\Api\NotAllowedException;
-use Zibios\WrikePhpLibrary\Exception\Api\NotAuthorizedException;
-use Zibios\WrikePhpLibrary\Exception\Api\ParameterRequiredException;
-use Zibios\WrikePhpLibrary\Exception\Api\ResourceNotFoundException;
-use Zibios\WrikePhpLibrary\Exception\Api\ServerErrorException;
-use Zibios\WrikePhpLibrary\Transformer\ApiExceptionTransformerInterface;
+use wedocreatives\WrikePhpLibrary\Exception\Api\AccessForbiddenException;
+use wedocreatives\WrikePhpLibrary\Exception\Api\ApiException;
+use wedocreatives\WrikePhpLibrary\Exception\Api\InvalidParameterException;
+use wedocreatives\WrikePhpLibrary\Exception\Api\InvalidRequestException;
+use wedocreatives\WrikePhpLibrary\Exception\Api\MethodNotFoundException;
+use wedocreatives\WrikePhpLibrary\Exception\Api\NotAllowedException;
+use wedocreatives\WrikePhpLibrary\Exception\Api\NotAuthorizedException;
+use wedocreatives\WrikePhpLibrary\Exception\Api\ParameterRequiredException;
+use wedocreatives\WrikePhpLibrary\Exception\Api\ResourceNotFoundException;
+use wedocreatives\WrikePhpLibrary\Exception\Api\ServerErrorException;
+use wedocreatives\WrikePhpLibrary\Transformer\ApiExceptionTransformerInterface;
 
 /**
  * Abstract Api Exception Transformer.

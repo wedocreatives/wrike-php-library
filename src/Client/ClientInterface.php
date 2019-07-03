@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the zibios/wrike-php-library package.
+ * This file is part of the wedocreatives/wrike-php-library package.
  *
  * (c) Zbigniew Ślązak
  *
@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Zibios\WrikePhpLibrary\Client;
+namespace wedocreatives\WrikePhpLibrary\Client;
 
 use Psr\Http\Message\ResponseInterface;
-use Zibios\WrikePhpLibrary\Exception\Api\ApiException;
+use wedocreatives\WrikePhpLibrary\Exception\Api\ApiException;
 
 /**
  * Client Interface.
@@ -33,8 +33,8 @@ interface ClientInterface
      * @param array  $params        optional params for GET/POST request
      * @param string $accessToken   Access Token for Wrike access
      *
-     * @see \Zibios\WrikePhpLibrary\Enum\Api\RequestMethodEnum
-     * @see \Zibios\WrikePhpLibrary\Enum\Api\RequestPathFormatEnum
+     * @see \wedocreatives\WrikePhpLibrary\Enum\Api\RequestMethodEnum
+     * @see \wedocreatives\WrikePhpLibrary\Enum\Api\RequestPathFormatEnum
      *
      * @throws \Throwable
      * @throws ApiException

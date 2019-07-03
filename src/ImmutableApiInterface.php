@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the zibios/wrike-php-library package.
+ * This file is part of the wedocreatives/wrike-php-library package.
  *
  * (c) Zbigniew Ślązak
  *
@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Zibios\WrikePhpLibrary;
+namespace wedocreatives\WrikePhpLibrary;
 
-use Zibios\WrikePhpLibrary\Transformer\ApiExceptionTransformerInterface;
-use Zibios\WrikePhpLibrary\Transformer\ResponseTransformerInterface;
+use wedocreatives\WrikePhpLibrary\Transformer\ApiExceptionTransformerInterface;
+use wedocreatives\WrikePhpLibrary\Transformer\ResponseTransformerInterface;
 
 /**
  * Api Interface for immutable operations.

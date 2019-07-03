@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the zibios/wrike-php-library package.
+ * This file is part of the wedocreatives/wrike-php-library package.
  *
  * (c) Zbigniew Ślązak
  *
@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Zibios\WrikePhpLibrary\Tests\Validator;
+namespace wedocreatives\WrikePhpLibrary\Tests\Validator;
 
-use Zibios\WrikePhpLibrary\Tests\TestCase;
-use Zibios\WrikePhpLibrary\Validator\IdValidator;
+use wedocreatives\WrikePhpLibrary\Tests\TestCase;
+use wedocreatives\WrikePhpLibrary\Validator\IdValidator;
 
 /**
  * Id Validator Test.

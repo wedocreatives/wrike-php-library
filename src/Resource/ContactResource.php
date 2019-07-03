@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the zibios/wrike-php-library package.
+ * This file is part of the wedocreatives/wrike-php-library package.
  *
  * (c) Zbigniew Ślązak
  *
@@ -11,14 +11,14 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Zibios\WrikePhpLibrary\Resource;
+namespace wedocreatives\WrikePhpLibrary\Resource;
 
-use Zibios\WrikePhpLibrary\Enum\Api\RequestPathFormatEnum;
-use Zibios\WrikePhpLibrary\Enum\Api\ResourceMethodEnum;
-use Zibios\WrikePhpLibrary\Resource\Traits\GetAllTrait;
-use Zibios\WrikePhpLibrary\Resource\Traits\GetByIdsTrait;
-use Zibios\WrikePhpLibrary\Resource\Traits\GetByIdTrait;
-use Zibios\WrikePhpLibrary\Resource\Traits\UpdateTrait;
+use wedocreatives\WrikePhpLibrary\Enum\Api\RequestPathFormatEnum;
+use wedocreatives\WrikePhpLibrary\Enum\Api\ResourceMethodEnum;
+use wedocreatives\WrikePhpLibrary\Resource\Traits\GetAllTrait;
+use wedocreatives\WrikePhpLibrary\Resource\Traits\GetByIdsTrait;
+use wedocreatives\WrikePhpLibrary\Resource\Traits\GetByIdTrait;
+use wedocreatives\WrikePhpLibrary\Resource\Traits\UpdateTrait;
 
 /**
  * Contact Resource.
@@ -33,8 +33,8 @@ class ContactResource extends AbstractResource
     /**
      * Return connection array ResourceMethod => RequestPathFormat.
      *
-     * @see \Zibios\WrikePhpLibrary\Enum\Api\ResourceMethodEnum
-     * @see \Zibios\WrikePhpLibrary\Enum\Api\RequestPathFormatEnum
+     * @see \wedocreatives\WrikePhpLibrary\Enum\Api\ResourceMethodEnum
+     * @see \wedocreatives\WrikePhpLibrary\Enum\Api\RequestPathFormatEnum
      *
      * @return array
      */

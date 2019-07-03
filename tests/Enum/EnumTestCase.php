@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the zibios/wrike-php-library package.
+ * This file is part of the wedocreatives/wrike-php-library package.
  *
  * (c) Zbigniew Ślązak
  *
@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Zibios\WrikePhpLibrary\Tests\Enum;
+namespace wedocreatives\WrikePhpLibrary\Tests\Enum;
 
-use Zibios\WrikePhpLibrary\Enum\AbstractEnum;
-use Zibios\WrikePhpLibrary\Tests\TestCase;
+use wedocreatives\WrikePhpLibrary\Enum\AbstractEnum;
+use wedocreatives\WrikePhpLibrary\Tests\TestCase;
 
 /**
  * Enum Test Case.

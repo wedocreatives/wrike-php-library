@@ -1,5 +1,5 @@
 {
-  "name": "zibios/wrike-php-library",
+  "name": "wedocreatives/wrike-php-library",
   "description": "Wrike PHP Library, generic implementation.",
   "keywords": [
     "wrike",
@@ -29,12 +29,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Zibios\\WrikePhpLibrary\\": "src/"
+      "wedocreatives\\WrikePhpLibrary\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Zibios\\WrikePhpLibrary\\Tests\\": "tests/"
+      "wedocreatives\\WrikePhpLibrary\\Tests\\": "tests/"
     }
   }
 }

@@ -4,7 +4,7 @@ if (!file_exists(__DIR__.'/src')) {
 }
 
 $header = <<<'EOF'
-This file is part of the zibios/wrike-php-library package.
+This file is part of the wedocreatives/wrike-php-library package.
 
 (c) Zbigniew Ślązak
 

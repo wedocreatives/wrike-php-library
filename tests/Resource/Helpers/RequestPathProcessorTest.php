@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the zibios/wrike-php-library package.
+ * This file is part of the wedocreatives/wrike-php-library package.
  *
  * (c) Zbigniew Ślązak
  *
@@ -11,11 +11,11 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Zibios\WrikePhpLibrary\Tests\Resource\Helpers;
+namespace wedocreatives\WrikePhpLibrary\Tests\Resource\Helpers;
 
-use Zibios\WrikePhpLibrary\Enum\Api\ResourceMethodEnum;
-use Zibios\WrikePhpLibrary\Resource\Helpers\RequestPathProcessor;
-use Zibios\WrikePhpLibrary\Tests\TestCase;
+use wedocreatives\WrikePhpLibrary\Enum\Api\ResourceMethodEnum;
+use wedocreatives\WrikePhpLibrary\Resource\Helpers\RequestPathProcessor;
+use wedocreatives\WrikePhpLibrary\Tests\TestCase;
 
 /**
  * Request Path Processor Test.

@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the zibios/wrike-php-library package.
+ * This file is part of the wedocreatives/wrike-php-library package.
  *
  * (c) Zbigniew Ślązak
  *
@@ -11,22 +11,22 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Zibios\WrikePhpLibrary\Tests\Resource;
+namespace wedocreatives\WrikePhpLibrary\Tests\Resource;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
-use Zibios\WrikePhpLibrary\Client\ClientInterface;
-use Zibios\WrikePhpLibrary\Enum\Api\ResourceMethodEnum;
-use Zibios\WrikePhpLibrary\Resource\AbstractResource;
-use Zibios\WrikePhpLibrary\Resource\ResourceInterface;
-use Zibios\WrikePhpLibrary\Tests\TestCase;
-use Zibios\WrikePhpLibrary\Transformer\ApiException\RawExceptionTransformer;
-use Zibios\WrikePhpLibrary\Transformer\ApiExceptionTransformerInterface;
-use Zibios\WrikePhpLibrary\Transformer\Response\Psr\ArrayBodyTransformer;
-use Zibios\WrikePhpLibrary\Transformer\Response\Psr\PsrBodyTransformer;
-use Zibios\WrikePhpLibrary\Transformer\Response\Psr\PsrResponseTransformer;
-use Zibios\WrikePhpLibrary\Transformer\Response\Psr\StringBodyTransformer;
-use Zibios\WrikePhpLibrary\Transformer\ResponseTransformerInterface;
+use wedocreatives\WrikePhpLibrary\Client\ClientInterface;
+use wedocreatives\WrikePhpLibrary\Enum\Api\ResourceMethodEnum;
+use wedocreatives\WrikePhpLibrary\Resource\AbstractResource;
+use wedocreatives\WrikePhpLibrary\Resource\ResourceInterface;
+use wedocreatives\WrikePhpLibrary\Tests\TestCase;
+use wedocreatives\WrikePhpLibrary\Transformer\ApiException\RawExceptionTransformer;
+use wedocreatives\WrikePhpLibrary\Transformer\ApiExceptionTransformerInterface;
+use wedocreatives\WrikePhpLibrary\Transformer\Response\Psr\ArrayBodyTransformer;
+use wedocreatives\WrikePhpLibrary\Transformer\Response\Psr\PsrBodyTransformer;
+use wedocreatives\WrikePhpLibrary\Transformer\Response\Psr\PsrResponseTransformer;
+use wedocreatives\WrikePhpLibrary\Transformer\Response\Psr\StringBodyTransformer;
+use wedocreatives\WrikePhpLibrary\Transformer\ResponseTransformerInterface;
 
 /**
  * Resource Test Case.

@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the zibios/wrike-php-library package.
+ * This file is part of the wedocreatives/wrike-php-library package.
  *
  * (c) Zbigniew Ślązak
  *
@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Zibios\WrikePhpLibrary\Resource\Traits;
+namespace wedocreatives\WrikePhpLibrary\Resource\Traits;
 
-use Zibios\WrikePhpLibrary\Enum\Api\RequestMethodEnum;
-use Zibios\WrikePhpLibrary\Enum\Api\ResourceMethodEnum;
+use wedocreatives\WrikePhpLibrary\Enum\Api\RequestMethodEnum;
+use wedocreatives\WrikePhpLibrary\Enum\Api\ResourceMethodEnum;
 
 /**
  * GetById Trait.
@@ -25,7 +25,7 @@ trait GetByIdTrait
      * @param string     $id
      * @param array|null $params
      *
-     * @throws \Zibios\WrikePhpLibrary\Exception\Api\ApiException
+     * @throws \wedocreatives\WrikePhpLibrary\Exception\Api\ApiException
      * @throws \LogicException
      * @throws \InvalidArgumentException
      * @throws \Throwable
@@ -48,7 +48,7 @@ trait GetByIdTrait
      * @param array        $params
      * @param string|array $id
      *
-     * @throws \Zibios\WrikePhpLibrary\Exception\Api\ApiException
+     * @throws \wedocreatives\WrikePhpLibrary\Exception\Api\ApiException
      * @throws \LogicException
      * @throws \InvalidArgumentException
      * @throws \Throwable

@@ -8,45 +8,45 @@ Introduction
 
 This package contains general documentation for all features.
 This package is decoupled from unnecessary dependencies and can't be used without additional HTTP Client plugin.
-* For general purpose please check full configured [Wrike PHP SDK](https://github.com/zibios/wrike-php-sdk) - **recommended for most users**.
-* For Symfony Framework please check full configured [Wrike bundle](https://github.com/zibios/wrike-bundle) based on this library
+* For general purpose please check full configured [Wrike PHP SDK](https://github.com/wedocreatives/wrike-php-sdk) - **recommended for most users**.
+* For Symfony Framework please check full configured [Wrike bundle](https://github.com/wedocreatives/wrike-bundle) based on this library
 * For none standard purposes please check:
-  * this generic [Wrike PHP Library](https://github.com/zibios/wrike-php-library)
-  * [HTTP Client plugin](https://github.com/zibios/wrike-php-guzzle) based on [guzzlehttp/guzzle](https://github.com/guzzle/guzzle) package
-  * [response transformer plugin](https://github.com/zibios/wrike-php-jmsserializer) based on [jms/serializer](https://github.com/schmittjoh/serializer) package
+  * this generic [Wrike PHP Library](https://github.com/wedocreatives/wrike-php-library)
+  * [HTTP Client plugin](https://github.com/wedocreatives/wrike-php-guzzle) based on [guzzlehttp/guzzle](https://github.com/guzzle/guzzle) package
+  * [response transformer plugin](https://github.com/wedocreatives/wrike-php-jmsserializer) based on [jms/serializer](https://github.com/schmittjoh/serializer) package
 
 Versions
 --------
 | Major Version                                               | Wrike API | PHP Compatibility                  | Initial release | Support                        |
 |:-----------------------------------------------------------:|:---------:|:----------------------------------:|:---------------:|:------------------------------:|
-| [V3](https://github.com/zibios/wrike-php-library/tree/v3.x) | V4        | PHP 7.1, PHP 7.2, TBD              | October, 2018   | TBD                            |
-| [V2](https://github.com/zibios/wrike-php-library/tree/v2.x) | V4        | PHP 5.5, PHP 5.6, PHP 7.0, PHP 7.1 | October, 2018   | Support ends on October, 2019  |
-| [V1](https://github.com/zibios/wrike-php-library/tree/v1.x) | V3        | PHP 5.5, PHP 5.6, PHP 7.0, PHP 7.1 | February, 2018  | Support ends on February, 2019 |
+| [V3](https://github.com/wedocreatives/wrike-php-library/tree/v3.x) | V4        | PHP 7.1, PHP 7.2, TBD              | October, 2018   | TBD                            |
+| [V2](https://github.com/wedocreatives/wrike-php-library/tree/v2.x) | V4        | PHP 5.5, PHP 5.6, PHP 7.0, PHP 7.1 | October, 2018   | Support ends on October, 2019  |
+| [V1](https://github.com/wedocreatives/wrike-php-library/tree/v1.x) | V3        | PHP 5.5, PHP 5.6, PHP 7.0, PHP 7.1 | February, 2018  | Support ends on February, 2019 |
 
 Project status
 --------------
 
 **General**
 
-[![Packagist License](https://img.shields.io/packagist/l/zibios/wrike-php-library.svg)](https://packagist.org/packages/zibios/wrike-php-library)
-[![Packagist Downloads](https://img.shields.io/packagist/dt/zibios/wrike-php-library.svg)](https://packagist.org/packages/zibios/wrike-php-library)
-[![Packagist Version](https://img.shields.io/packagist/v/zibios/wrike-php-library.svg)](https://packagist.org/packages/zibios/wrike-php-library)
-[![Packagist Version](https://img.shields.io/packagist/php-v/zibios/wrike-php-library.svg)](https://packagist.org/packages/zibios/wrike-php-library)
-[![Libraries.io](https://img.shields.io/librariesio/github/zibios/wrike-php-library.svg)](https://libraries.io/packagist/zibios%2Fwrike-php-library)
+[![Packagist License](https://img.shields.io/packagist/l/wedocreatives/wrike-php-library.svg)](https://packagist.org/packages/wedocreatives/wrike-php-library)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/wedocreatives/wrike-php-library.svg)](https://packagist.org/packages/wedocreatives/wrike-php-library)
+[![Packagist Version](https://img.shields.io/packagist/v/wedocreatives/wrike-php-library.svg)](https://packagist.org/packages/wedocreatives/wrike-php-library)
+[![Packagist Version](https://img.shields.io/packagist/php-v/wedocreatives/wrike-php-library.svg)](https://packagist.org/packages/wedocreatives/wrike-php-library)
+[![Libraries.io](https://img.shields.io/librariesio/github/wedocreatives/wrike-php-library.svg)](https://libraries.io/packagist/wedocreatives%2Fwrike-php-library)
 
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1690/badge)](https://bestpractices.coreinfrastructure.org/projects/1690)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/28d43ffe-fa9a-4afa-893e-fc9b2e080d09/mini.png)](https://insight.sensiolabs.com/projects/28d43ffe-fa9a-4afa-893e-fc9b2e080d09)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9b3b1cf6321040fa910c0c1c335b5ba1)](https://www.codacy.com/app/zibios/wrike-php-library)
-[![Code Climate Maintainability](https://api.codeclimate.com/v1/badges/73783acf5037a935c9c8/maintainability)](https://codeclimate.com/github/zibios/wrike-php-library/maintainability)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9b3b1cf6321040fa910c0c1c335b5ba1)](https://www.codacy.com/app/wedocreatives/wrike-php-library)
+[![Code Climate Maintainability](https://api.codeclimate.com/v1/badges/73783acf5037a935c9c8/maintainability)](https://codeclimate.com/github/wedocreatives/wrike-php-library/maintainability)
 
 **Branch 'master'**
 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/zibios/wrike-php-library/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/zibios/wrike-php-library/?branch=master)
-[![Scrutinizer Build Status](https://scrutinizer-ci.com/g/zibios/wrike-php-library/badges/build.png?b=master)](https://scrutinizer-ci.com/g/zibios/wrike-php-library/build-status/master)
-[![Scrutinizer Code Coverage](https://scrutinizer-ci.com/g/zibios/wrike-php-library/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/zibios/wrike-php-library/?branch=master)
-[![Travis Build Status](https://travis-ci.org/zibios/wrike-php-library.svg?branch=master)](https://travis-ci.org/zibios/wrike-php-library)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/wedocreatives/wrike-php-library/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/wedocreatives/wrike-php-library/?branch=master)
+[![Scrutinizer Build Status](https://scrutinizer-ci.com/g/wedocreatives/wrike-php-library/badges/build.png?b=master)](https://scrutinizer-ci.com/g/wedocreatives/wrike-php-library/build-status/master)
+[![Scrutinizer Code Coverage](https://scrutinizer-ci.com/g/wedocreatives/wrike-php-library/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/wedocreatives/wrike-php-library/?branch=master)
+[![Travis Build Status](https://travis-ci.org/wedocreatives/wrike-php-library.svg?branch=master)](https://travis-ci.org/wedocreatives/wrike-php-library)
 [![StyleCI](https://styleci.io/repos/80992179/shield?branch=master)](https://styleci.io/repos/80992179)
-[![Coverage Status](https://coveralls.io/repos/github/zibios/wrike-php-library/badge.svg?branch=master)](https://coveralls.io/github/zibios/wrike-php-library?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/wedocreatives/wrike-php-library/badge.svg?branch=master)](https://coveralls.io/github/wedocreatives/wrike-php-library?branch=master)
 
 Installation
 ------------
@@ -54,7 +54,7 @@ Open a command console, enter your project directory and execute the
 following command to download the latest stable version of this bundle:
 
 ```console
-$ composer require zibios/wrike-php-library "^3.0"
+$ composer require wedocreatives/wrike-php-library "^3.0"
 ```
 
 This command requires you to have Composer installed globally, as explained
@@ -66,7 +66,7 @@ Contribution
 To try it yourself clone the repository:
 
 ```bash
-git clone git@github.com:zibios/wrike-php-library.git
+git clone git@github.com:wedocreatives/wrike-php-library.git
 cd wrike-php-library
 ```
 
@@ -90,7 +90,7 @@ All operations are immutable and stateless.
 /**
  * Resources access methods
  */
-$api = ApiFactory::create(<PermanentToken>); // @see zibios/wrike-php-sdk
+$api = ApiFactory::create(<PermanentToken>); // @see wedocreatives/wrike-php-sdk
 
 $api->account()->getAll();
 $api->account()->updateDefault($params);
@@ -251,7 +251,7 @@ $response = $api->attachments()->downloadPreview($attachmentId);
  *
  * $api->recreateForNew*() - returns new Api instance
  */
-$api = ApiFactory::create(<PermanentToken>); // @see zibios/wrike-php-sdk
+$api = ApiFactory::create(<PermanentToken>); // @see wedocreatives/wrike-php-sdk
 
 $newApi = $api->recreateForNewAccessToken(<PermanentToken>);
 
@@ -273,20 +273,20 @@ Response can be returned in various formats according to used response transform
 | PsrBodyTransformer       | Psr\Http\Message\StreamInterface   | PSR response body                       |
 | StringBodyTransformer    | JSON string                        | PSR response body casted to JSON string |
 | ArrayBodyTransformer     | array                              | PSR response body casted to array       |
-| ResponseModelTransformer | ResponseModelInterface             | check [Response transformer plugin](https://github.com/zibios/wrike-php-jmsserializer) |
-| ResourceModelTransformer | ResourceModelInterface             | check [Response transformer plugin](https://github.com/zibios/wrike-php-jmsserializer) |
+| ResponseModelTransformer | ResponseModelInterface             | check [Response transformer plugin](https://github.com/wedocreatives/wrike-php-jmsserializer) |
+| ResourceModelTransformer | ResourceModelInterface             | check [Response transformer plugin](https://github.com/wedocreatives/wrike-php-jmsserializer) |
 
 ENUM's
 ------
 
-**Zibios\WrikePhpLibrary\Enum\Api**
+**wedocreatives\WrikePhpLibrary\Enum\Api**
 
 * RequestMethodEnum
 * RequestPathFormatEnum
 * ResourceMethodEnum
 * ResponseFormatEnum
 
-**namespace Zibios\WrikePhpLibrary\Enum**
+**namespace wedocreatives\WrikePhpLibrary\Enum**
 
 * AttachmentPreviewSizeEnum
 * AttachmentTypeEnum
@@ -365,13 +365,13 @@ Reference
 
 **Internal**
 
-Full configured [Wrike PHP SDK](https://github.com/zibios/wrike-php-sdk)
+Full configured [Wrike PHP SDK](https://github.com/wedocreatives/wrike-php-sdk)
 
-Full configured [Symfony bundle](https://github.com/zibios/wrike-bundle) based on Wrike PHP SDK
+Full configured [Symfony bundle](https://github.com/wedocreatives/wrike-bundle) based on Wrike PHP SDK
 
-[Response transformer plugin](https://github.com/zibios/wrike-php-jmsserializer) for Wrike PHP Library
+[Response transformer plugin](https://github.com/wedocreatives/wrike-php-jmsserializer) for Wrike PHP Library
 
-[HTTP Client plugin](https://github.com/zibios/wrike-php-guzzle) for Wrike PHP Library
+[HTTP Client plugin](https://github.com/wedocreatives/wrike-php-guzzle) for Wrike PHP Library
 
 **External**
 

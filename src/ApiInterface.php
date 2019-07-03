@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the zibios/wrike-php-library package.
+ * This file is part of the wedocreatives/wrike-php-library package.
  *
  * (c) Zbigniew Ślązak
  *
@@ -11,25 +11,25 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Zibios\WrikePhpLibrary;
+namespace wedocreatives\WrikePhpLibrary;
 
-use Zibios\WrikePhpLibrary\Resource\AccountResource;
-use Zibios\WrikePhpLibrary\Resource\AttachmentResource;
-use Zibios\WrikePhpLibrary\Resource\ColorResource;
-use Zibios\WrikePhpLibrary\Resource\CommentResource;
-use Zibios\WrikePhpLibrary\Resource\ContactResource;
-use Zibios\WrikePhpLibrary\Resource\CustomFieldResource;
-use Zibios\WrikePhpLibrary\Resource\DependencyResource;
-use Zibios\WrikePhpLibrary\Resource\FolderResource;
-use Zibios\WrikePhpLibrary\Resource\GroupResource;
-use Zibios\WrikePhpLibrary\Resource\IdResource;
-use Zibios\WrikePhpLibrary\Resource\InvitationResource;
-use Zibios\WrikePhpLibrary\Resource\TaskResource;
-use Zibios\WrikePhpLibrary\Resource\TimelogCategoryResource;
-use Zibios\WrikePhpLibrary\Resource\TimelogResource;
-use Zibios\WrikePhpLibrary\Resource\UserResource;
-use Zibios\WrikePhpLibrary\Resource\VersionResource;
-use Zibios\WrikePhpLibrary\Resource\WorkflowResource;
+use wedocreatives\WrikePhpLibrary\Resource\AccountResource;
+use wedocreatives\WrikePhpLibrary\Resource\AttachmentResource;
+use wedocreatives\WrikePhpLibrary\Resource\ColorResource;
+use wedocreatives\WrikePhpLibrary\Resource\CommentResource;
+use wedocreatives\WrikePhpLibrary\Resource\ContactResource;
+use wedocreatives\WrikePhpLibrary\Resource\CustomFieldResource;
+use wedocreatives\WrikePhpLibrary\Resource\DependencyResource;
+use wedocreatives\WrikePhpLibrary\Resource\FolderResource;
+use wedocreatives\WrikePhpLibrary\Resource\GroupResource;
+use wedocreatives\WrikePhpLibrary\Resource\IdResource;
+use wedocreatives\WrikePhpLibrary\Resource\InvitationResource;
+use wedocreatives\WrikePhpLibrary\Resource\TaskResource;
+use wedocreatives\WrikePhpLibrary\Resource\TimelogCategoryResource;
+use wedocreatives\WrikePhpLibrary\Resource\TimelogResource;
+use wedocreatives\WrikePhpLibrary\Resource\UserResource;
+use wedocreatives\WrikePhpLibrary\Resource\VersionResource;
+use wedocreatives\WrikePhpLibrary\Resource\WorkflowResource;
 
 /**
  * General Wrike Api Interface for resource getters.

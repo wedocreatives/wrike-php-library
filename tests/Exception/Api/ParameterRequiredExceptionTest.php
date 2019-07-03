@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the zibios/wrike-php-library package.
+ * This file is part of the wedocreatives/wrike-php-library package.
  *
  * (c) Zbigniew Ślązak
  *
@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Zibios\WrikePhpLibrary\Tests\Exception\Api;
+namespace wedocreatives\WrikePhpLibrary\Tests\Exception\Api;
 
-use Zibios\WrikePhpLibrary\Exception\Api\ParameterRequiredException;
+use wedocreatives\WrikePhpLibrary\Exception\Api\ParameterRequiredException;
 
 /**
  * Parameter Required Exception Test.

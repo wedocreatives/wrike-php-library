@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the zibios/wrike-php-library package.
+ * This file is part of the wedocreatives/wrike-php-library package.
  *
  * (c) Zbigniew Ślązak
  *
@@ -11,12 +11,12 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Zibios\WrikePhpLibrary\Tests\Transformer\Response\Psr;
+namespace wedocreatives\WrikePhpLibrary\Tests\Transformer\Response\Psr;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
-use Zibios\WrikePhpLibrary\Tests\TestCase;
-use Zibios\WrikePhpLibrary\Transformer\ResponseTransformerInterface;
+use wedocreatives\WrikePhpLibrary\Tests\TestCase;
+use wedocreatives\WrikePhpLibrary\Transformer\ResponseTransformerInterface;
 
 /**
  * Abstract Response Transformer Test Case.
